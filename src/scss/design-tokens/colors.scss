@@ -1,0 +1,73 @@
+:root {
+  /*Colors*/
+  /*Blue
+      Used for primary buttons and call to actions
+      */
+  --loki-blue-300: #b5dbf7;
+  --loki-blue-400: #74bff6;
+  --loki-blue-500: #289bef;
+  --loki-blue-600: #0b5ed7;
+  --loki-blue-700: #0a58ca;
+  /*Purple
+      Used for variable and if blocks
+      */
+  --loki-purple-300: #e3bcee;
+  --loki-purple-400: #dea0f0;
+  --loki-purple-500: #ce74e8;
+  --loki-purple-600: #723c82;
+  --loki-purple-700: #542a60;
+  /*Teal
+      Used for function blocks
+      */
+  --loki-teal-300: #cce8f4;
+  --loki-teal-400: #acdff5;
+  --loki-teal-500: #74c4e8;
+  --loki-teal-600: #3c7082;
+  --loki-teal-700: #2a5460;
+  /*Sand
+      Used for loop blocks
+      */
+  --loki-sand-300: #eed9ca;
+  --loki-sand-400: #f5c9a8;
+  --loki-sand-500: #e8a574;
+  --loki-sand-600: #825e3c;
+  --loki-sand-700: #60472a;
+  /*Green
+      Used for message and code blocks
+      */
+  --loki-green-300: #c8f6c8;
+  --loki-green-400: #98ee98;
+  --loki-green-500: #74e874;
+  --loki-green-600: #3e823c;
+  --loki-green-700: #2c602a;
+  /*Yellow
+      Used for array blocks
+      */
+  --loki-yellow-300: #ece9c7;
+  --loki-yellow-400: #f5efa4;
+  --loki-yellow-500: #e8df74;
+  --loki-yellow-600: #827b3c;
+  --loki-yellow-700: #605a2a;
+  /*Red
+      Used for errors and other warnings
+      */
+  --loki-red-300: #eba0a0;
+  --loki-red-400: #ea7a7a;
+  --loki-red-500: #ce3b3b;
+  --loki-red-600: #913636;
+  --loki-red-700: #6a2727;
+  /*Gray
+      Used for UI basics
+      */
+  --loki-gray-300: #909094;
+  --loki-gray-400: #383840;
+  --loki-gray-500: #27272f;
+  --loki-gray-600: #1b1b22;
+  --loki-gray-700: #16161d;
+  /*Accents
+        Colours with special purposes
+      */
+  --loki-acent-text-primary: #eaeaea;
+  --loki-acent-orange: #ef8828;
+  --loki-acent-icon: #838395;
+}

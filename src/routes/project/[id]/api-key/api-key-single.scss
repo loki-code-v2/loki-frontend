@@ -1,0 +1,36 @@
+.token {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--loki-gray-500);
+  border-radius: var(--loki-border-radius-large);
+  margin: var(--loki-spacing-xs);
+  padding: var(--loki-spacing-xs);
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: var(--loki-gray-400);
+}
+
+.token-left {
+}
+
+.token-right {
+  align-self: center;
+}
+
+.token-name {
+  margin-bottom: var(--loki-spacing-sm);
+}
+
+.token-created-at {
+  color: var(--loki-gray-300);
+}
+
+.token-expires-at {
+  color: var(--loki-gray-300);
+}
+
+.delete-token-button {
+  margin-top: 1rem;
+  width: 100%;
+}

@@ -1,0 +1,65 @@
+.deployment-history-item {
+  justify-content: space-between;
+  flex-grow: 1;
+  color: var(--loki-gray-300);
+  padding-top: var(--loki-spacing-sm);
+}
+.playground-button {
+  align-self: flex-end;
+}
+.trigger-kind {
+  color: var(--loki-blue-500);
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+.trigger-kind:hover {
+  color: var(--loki-blue-600);
+}
+.popup-container2 {
+  min-width: 200px;
+  min-height: 300px;
+  max-height: 500px;
+  max-width: 300px;
+  padding: var(--loki-spacing-sm);
+  background-color: var(--loki-gray-700);
+  border-radius: var(--loki-border-radius);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.new-popup-container2 {
+  padding: var(--loki-spacing-sm);
+  background-color: var(--loki-gray-700);
+  border-radius: var(--loki-border-radius);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.buildbear-card {
+  background-color: var(--loki-gray-500);
+  border-radius: var(--loki-border-radius);
+  padding: var(--loki-spacing-sm);
+  &.live {
+    cursor: pointer;
+    &:hover {
+      background-color: var(
+        --loki-gray-600
+      ); // Change the background color when hovering
+      color: var(--loki-white); // Change the text color when hovering
+    }
+    &.selected {
+      background-color: var(--loki-teal-700);
+      color: var(--loki-teal-300);
+    }
+  }
+}
+.pulsating-badge {
+  color: transparent;
+}
+.commit-message {
+  min-width: 350px;
+  max-width: 350px; /* Adjust as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-header {
+  align-items: center;
+  justify-content: space-between;
+}

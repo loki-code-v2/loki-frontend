@@ -1,0 +1,27 @@
+.erc20-body {
+  flex: 1;
+  align-self: center;
+  width: 410px;
+}
+.erc20-form-footer {
+  padding-top: var(--loki-spacing-md);
+}
+
+.erc20-form-header {
+  padding-bottom: var(--loki-spacing-md);
+  padding-top: var(--loki-spacing-md);
+  font-weight: 500;
+  font-size: 24px;
+}
+.erc20-form-body {
+  padding-bottom: var(--loki-spacing-md);
+}
+.pointer::part(input) {
+  cursor: pointer;
+}
+.nft-image{
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}

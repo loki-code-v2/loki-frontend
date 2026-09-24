@@ -1,0 +1,100 @@
+.content {
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(2, auto);
+}
+
+.left-title {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
+
+.right-title {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: var(--loki-gray-500);
+  border-top-left-radius: var(--loki-border-radius-large);
+  border-top-right-radius: var(--loki-border-radius-large);
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-right: var(--loki-spacing-md);
+}
+
+.func-card {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border-bottom: 1px solid var(--loki-gray-400);
+}
+
+.js-card {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  border-bottom: 1px solid var(--loki-gray-400);
+  background-color: var(--loki-gray-500);
+  margin-right: var(--loki-spacing-md);
+  display: flex;
+}
+
+.left-title-header {
+  margin-bottom: var(--loki-spacing-sm);
+}
+
+.left-title-description {
+  margin-bottom: var(--loki-spacing-sm);
+  color: var(--loki-gray-300);
+}
+
+.left-title-description-text {
+  margin-left: 0.25rem;
+  margin-right: 0.75rem;
+}
+
+.library-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.library-name {
+  margin-top: var(--loki-spacing-sm);
+}
+
+.right-title-header {
+  color: var(--loki-gray-300);
+  margin: var(--loki-spacing-sm);
+}
+
+.search-bar {
+  padding-right: var(--loki-spacing-xl);
+}
+
+.library-item {
+  padding-top: var(--loki-spacing-xs);
+  padding-bottom: var(--loki-spacing-xs);
+  padding-left: var(--loki-spacing-md);
+  padding-right: var(--loki-spacing-md);
+}
+
+.library-item:hover {
+  cursor: pointer;
+}
+
+.title {
+  font-size: var(--loki-font-size-subtitle);
+  line-height: var(--loki-spacing-md);
+  color: var(--loki-acent-text-primary);
+  place-self: center;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  row-gap: 0.5rem;
+}

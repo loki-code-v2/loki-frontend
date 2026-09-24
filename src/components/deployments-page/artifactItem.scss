@@ -1,0 +1,11 @@
+.artifact-card {
+  background-color: var(--loki-gray-500);
+  border-radius: var(--loki-border-radius);
+  padding: var(--loki-spacing-md);
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--loki-teal-700);
+    cursor: pointer;
+  }
+}

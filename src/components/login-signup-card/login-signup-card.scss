@@ -1,0 +1,33 @@
+.middle-panel {
+  height: 100vh;
+  width: 100vw;
+  background: url("/login-background2.png");
+  background-size: cover;
+
+  >.card {
+    background: radial-gradient(50% 50% at 50% 50%, #3838405e 0%, rgba(56, 56, 64, 0.4) 34.37%, rgba(56, 56, 64, 0.4) 72.92%, rgba(56, 56, 64, 0.4) 100%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+  }
+}
+
+.flex {
+  align-self: center;
+}
+
+.caption {
+  color: var(--loki-acent-icon)
+}
+
+.login-loki-icon {
+  max-width: 100%;
+  height: 10%;
+  align-self: center;
+}

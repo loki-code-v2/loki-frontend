@@ -1,0 +1,118 @@
+.transaction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--loki-gray-500);
+  border-radius: var(--loki-border-radius-large);
+  margin: var(--loki-spacing-xs);
+  padding: var(--loki-spacing-xs);
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: var(--loki-gray-400);
+}
+
+.field-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: var(--loki-spacing-xs);
+}
+
+.title {
+  color: var(--loki-gray-300);
+  margin-bottom: var(--loki-spacing-sm);
+}
+
+.value {
+}
+
+.review-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0.25rem;
+}
+
+.inside-review-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: var(--loki-spacing-xs);
+}
+
+.review-button-text {
+  margin-left: var(--loki-spacing-xs);
+}
+
+.inside-review-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reject-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: var(--loki-spacing-xs);
+}
+
+.reject-button-text {
+  margin-left: 0.25rem;
+  color: var(--loki-gray-300);
+}
+
+.reject-button:hover {
+  color: var(--loki-gray-400);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.review-dialog {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.review-id {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: var(--loki-spacing-md);
+}
+
+.review-contract {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: var(--loki-spacing-md);
+}
+
+.review-datetime {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-bottom: var(--loki-spacing-md);
+}
+
+.review-user {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-bottom: var(--loki-spacing-md);
+}
+
+.deploy-button {
+  width: 100%;
+  margin-top: var(--loki-spacing-md);
+}
+
+.delete-btn {
+  margin-top: 1rem;
+  // width: 100%;
+}

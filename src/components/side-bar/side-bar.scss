@@ -1,0 +1,25 @@
+.navigation-menu-container {
+  padding: var(--loki-spacing-md);
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: var(--loki-font-size-subtitle);
+  line-height: var(--loki-spacing-md);
+  color: var(--loki-acent-text-primary);
+  place-self: center;
+}
+
+.loki-brand {
+  cursor: pointer;
+  text-decoration: none; /* Prevent underline */
+}
+
+.loki-brand:hover {
+  text-decoration: none; /* Prevent underline on hover */
+}
+
+.space {
+  height: 90%;
+}

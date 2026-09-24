@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Loki.code",
+  "short_name": "Welcome to Loki.code",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff"
+}

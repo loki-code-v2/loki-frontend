@@ -1,0 +1,11 @@
+.history-tab {
+  display: flex;
+  flex-direction: column;
+  gap: var(--loki-spacing-lg);
+  padding-right: var(--loki-spacing-lg);
+}
+
+.transactions-list {
+  display: flex;
+  flex-direction: column-reverse;
+}

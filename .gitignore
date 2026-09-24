@@ -1,0 +1,65 @@
+# Build
+/dist
+/lib
+/lib-types
+/server
+
+#Shoelace
+public/shoelace
+
+# Development
+node_modules
+*.local
+
+
+# Cache
+.cache
+.mf
+.rollup.cache
+tsconfig.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# NOTE: package-lock.json IS committed (pins qwik 1.5.5). Do not un-ignore it:
+# fresh Docker `npm install` must resolve the same versions as local builds.
+
+# Editor
+.vscode/*
+.history/*
+src/.history/*
+src/.history/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Yarn
+.yarn/*
+!.yarn/releases
+#shoelace
+public/cdn/*
+
+.env
+!.env.example
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+# Private keys
+*.pem
+*.key

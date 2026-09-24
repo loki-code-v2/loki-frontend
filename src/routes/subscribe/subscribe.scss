@@ -1,0 +1,88 @@
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: var(--loki-spacing-xl);
+  justify-content: space-around;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+  margin-right: 2rem;
+}
+
+// .content {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   overflow-y: auto;
+//   margin-top: var(--loki-spacing-xxxxl);
+// }
+
+.upgrade-card {
+  padding: var(--loki-spacing-md);
+  border-radius: var(--loki-border-radius-large);
+  background-color: var(--loki-gray-500);
+  // min-width: 20vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--loki-gray-400);
+  flex-grow: 1;
+}
+
+.upgrade-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.pro-title {
+  margin-bottom: 0.75rem;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+  column-gap: 0.25rem;
+}
+
+.price-subtext {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-subtext-parenthesis {
+  font-size: 0.75rem;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.gray {
+  color: var(--loki-gray-300);
+}
+
+.perk-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.75rem;
+}
+
+.list-item-text {
+  align-self: center;
+}
+
+.footer {
+  margin-top: 1.5rem;
+}
+
+.normal-btn {
+  width: 100%;
+}

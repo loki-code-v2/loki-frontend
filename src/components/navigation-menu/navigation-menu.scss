@@ -1,0 +1,36 @@
+.menu-wrapper {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: var(--loki-spacing-xs);
+  border-radius: var(--loki-border-radius-large);
+  background-color: var(--loki-gray-500);
+}
+.menu-item {
+  width: 152px;
+  display: flex;
+  border-radius: var(--loki-border-radius);
+  padding: var(--loki-spacing-xs);
+
+  span {
+    align-self: center;
+    margin-left: var(--loki-spacing-sm);
+  }
+}
+
+.menu-item-active {
+  width: 152px;
+  display: flex;
+  border-radius: var(--loki-border-radius);
+  padding: var(--loki-spacing-xs);
+  background-color: var(--loki-gray-400);
+
+  span {
+    align-self: center;
+    margin-left: var(--loki-spacing-sm);
+  }
+}
+
+.menu-item:hover {
+  background-color: var(--loki-gray-400);
+  cursor: pointer;
+}

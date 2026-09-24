@@ -1,0 +1,42 @@
+.title {
+  margin-right: auto;
+  margin-left: var(--loki-spacing-xxxl);
+  place-self: center;
+}
+
+.navigation-menu-container {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0px var(--loki-spacing-md);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dashboard-body {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding-right: 2rem;
+}
+
+.username {
+  margin-bottom: var(--loki-spacing-md);
+}
+
+.main-content-wrapper {
+  max-height: calc(100vh - 100px);
+  overflow: auto;
+}
+
+.more-templates-msg {
+  color: var(--loki-gray-300);
+  display: flex;
+  justify-content: center;
+}

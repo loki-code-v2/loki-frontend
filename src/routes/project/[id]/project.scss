@@ -1,0 +1,154 @@
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  margin-right: auto;
+  margin-left: var(--loki-spacing-xxxl);
+  place-self: center;
+}
+
+.navigation-menu-container {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0px var(--loki-spacing-md);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dashboard-body {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.username {
+  margin-bottom: var(--loki-spacing-md);
+}
+
+.main-content {
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  height: -webkit-fill-available;
+}
+
+.repository-tree {
+  padding: var(--loki-spacing-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--loki-spacing-md);
+  flex: 1;
+}
+
+.file-view {
+  display: flex;
+  flex-direction: column;
+  gap: var(--loki-spacing-md);
+  background-color: var(--loki-gray-700);
+  flex: 4;
+  border-radius: var(--loki-border-radius-large);
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  overflow: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--loki-gray-400);
+}
+
+.project-placeholder {
+  margin-left: 1rem;
+}
+
+.file-contents {
+  padding: var(--loki-spacing-lg);
+  background-color: var(--loki-gray-700);
+}
+
+.repository-name {
+  color: var(--loki-grey-300);
+}
+.file-tree {
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.project-name {
+  color: var(--loki-gray-300);
+  font-size: var(--loki-font-size-h4);
+}
+
+.file-view-header {
+  color: var(--loki-gray-300);
+  align-items: center;
+  justify-content: space-between;
+  padding-top: var(--loki-spacing-sm);
+  padding-right: var(--loki-spacing-sm);
+}
+.no-selected-file {
+  height: -webkit-fill-available;
+  color: var(--loki-gray-300);
+  font-size: var(--loki-font-size-h4);
+}
+.file-actions {
+  margin-left: auto;
+  margin-right: var(--loki-spacing-md);
+}
+
+.file-container {
+  display: flex;
+  flex-direction: column;
+  //add a padding top to the last child
+  & > *:last-child {
+    padding-top: var(--loki-spacing-md);
+  }
+}
+.file-label {
+  color: var(--loki-gray-300);
+  padding-bottom: var(--loki-spacing-xs);
+}
+.file-name {
+  background-color: var(--loki-gray-400);
+  color: var(--loki-acent-text-primary);
+  padding: var(--loki-spacing-sm) 0.2rem;
+  border-radius: var(--loki-border-radius);
+}
+.file-view-code {
+  background: none;
+}
+
+.right-header {
+  color: var(--loki-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.compiler-warning {
+  width: 100%;
+  text-align: center;
+  color: var(--loki-gray-700);
+  background-color: yellow;
+  padding-top: var(--loki-spacing-xs);
+  padding-bottom: var(--loki-spacing-xs);
+}
+
+.top-warning {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 0.25rem;
+  margin-right: 3rem;
+  padding: 1rem;
+  color: var(--loki-gray-700);
+  background-color: red;
+  padding-top: var(--loki-spacing-xs);
+  padding-bottom: var(--loki-spacing-xs);
+  border-radius: var(--loki-border-radius-large);
+}
+
+a {
+  color: blue;
+  // font-weight: bold;
+}

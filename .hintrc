@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "apple-touch-icons": "off",
+    "no-inline-styles": "off",
+    "typescript-config/strict": "off",
+    "disown-opener": "off"
+  }
+}

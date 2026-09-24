@@ -1,0 +1,43 @@
+.title {
+  margin-right: auto;
+  margin-left: var(--loki-spacing-xxxl);
+  place-self: center;
+}
+
+.dashboard-body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  row-gap: 2rem;
+  position: relative;
+  //height: 100%;
+}
+
+.main-content-wrapper {
+  max-height: calc(100vh - 100px);
+  overflow: auto;
+}
+
+.empty-state {
+  margin: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.empty-state-title {
+  color: var(--loki-acent-text-primary);
+  margin-bottom: var(--loki-spacing-md);
+}
+
+.empty-state-subtitle {
+  color: var(--loki-acent-icon);
+  margin-bottom: var(--loki-spacing-md);
+}

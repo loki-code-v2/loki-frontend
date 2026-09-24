@@ -1,0 +1,26 @@
+.testnet-tag {
+  height: auto;
+  width: auto;
+  margin-right: 10px;
+}
+.selector-displayed-value {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin-inline-end: unset;
+  min-width: 177px;
+  overflow: hidden;
+}
+.network-display-name {
+  max-width: 150px; /* Adjust as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.loki-network-selector-expand-icon {
+  transition: transform 0.3s ease;
+}
+
+.loki-network-selector-expand-icon.rotated {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,23 @@
+.cl-card {
+  background-color: var(--loki-gray-600);
+  color: var(--loki-acent-text-primary);
+  box-shadow: none;
+  // apply this color to all children
+  * {
+    color: var(--loki-acent-text-primary);
+  }
+  // apply blue color for childre with this class profileSectionPrimaryButton
+  .cl-profileSectionPrimaryButton {
+    * {
+      color: var(--loki-blue-500);
+    }
+  }
+  .cl-formFieldInput{
+    background-color: var(--loki-blue-400);
+  }
+  .cl-accordionContent{
+    button{
+        color: var(--loki-red-400);
+    }
+  }
+}

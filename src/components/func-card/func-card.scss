@@ -1,0 +1,42 @@
+.function-wrapper {
+  background-color: var(--loki-gray-600);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: var(--loki-spacing-md);
+}
+.function-name {
+  padding-bottom: var(--loki-spacing-md);
+  display: flex;
+  flex-direction: row;
+}
+.function-arguments {
+  padding-bottom: var(--loki-spacing-md);
+  display: flex;
+  flex-direction: row;
+}
+.arguments {
+  display: flex;
+  flex-direction: column;
+}
+.func-args-value {
+  padding-bottom: var(--loki-spacing-md);
+  display: flex;
+  flex-direction: row;
+}
+
+.badge {
+  margin-left: var(--loki-spacing-sm);
+}
+
+.try-it-button {
+  width: 5rem;
+}
+
+.function-name-title {
+  color: var(--loki-gray-300);
+}
+
+.function-arguments-title {
+  color: var(--loki-gray-300);
+}

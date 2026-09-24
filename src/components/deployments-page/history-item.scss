@@ -1,0 +1,10 @@
+.history-item {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  width: 100%;
+  padding: var(--loki-spacing-lg);
+  background-color: var(--loki-gray-500);
+  border-radius: var(--loki-border-radius-large);
+  border: solid 1px var(--loki-gray-400);
+}

@@ -1,0 +1,42 @@
+/* General */
+.flex {
+  display: flex;
+  gap: var(--gap, var(--loki-spacing-md));
+
+  &-wrap {
+    @extend .flex;
+    flex-wrap: wrap;
+  }
+
+  &-column {
+    @extend .flex;
+    flex-direction: column;
+  }
+
+  &-row {
+    @extend .flex;
+    flex-direction: row;
+  }
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, var(--loki-spacing-md));
+
+  &-center {
+    @extend .grid;
+    place-items: center;
+  }
+}
+
+.fill-available {
+  width: -webkit-fill-available;
+  height: 100%;
+}
+
+.center {
+  justify-self: center;
+}
+.align-items-center {
+  align-items: center;
+}

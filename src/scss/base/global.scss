@@ -1,0 +1,136 @@
+/*
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ * Classes defined here will be available in all components.
+*/
+
+/*
+    * Loki Design System v0.0.1
+*/
+
+/*
+  * References:
+  ** https://www.smashingmagazine.com/2018/05/css-custom-properties-strategy-guide/
+  ** https://github.com/kevin-powell/space-tourism
+  ** https://piccalil.li/tutorial/build-a-dashboard-with-cube-css/
+  ** https://cube.fyi
+*/
+// Utilities
+@use "reset";
+@use "../design-tokens/design-tokens";
+@use "../utilities/_utilities";
+@use "../shoelace/sl-loki";
+@use "../clerk/clerk";
+
+// base styling
+
+/* set up the body*/
+body {
+  font-family: var(--loki-font-family);
+  font-size: var(--loki-font-size-body);
+  color: var(--loki-acent-text-primary);
+  background-color: var(--loki-gray-600);
+  line-height: 1.5;
+  opacity: 0;
+}
+
+body.ready {
+  opacity: 1;
+  transition: 0.25s opacity;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  /* set the second row to fill all available height */
+  height: 100vh;
+}
+
+/* set up the links */
+a {
+  color: var(--loki-acent-orange);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+
+  &.internal-link {
+    white-space: nowrap;
+    place-self: center;
+    color: var(--loki-gray-300);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      color: var(--loki-acent-text-primary);
+    }
+  }
+
+  &.unstyled-link {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+/* make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.cl-footer {
+  display: none;
+}
+.invisible {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+.hidden {
+  display: none;
+}
+.custom-tooltip {
+  /* existing styles */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  padding-bottom: 15px;
+}
+
+.custom-tooltip::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.custom-tooltip.show {
+  opacity: 1;
+}
+
+sl-button {
+  position: inherit;
+}
+sl-select {
+  position: inherit;
+}

@@ -1,0 +1,32 @@
+/*------------------*/
+/* utility classes */
+/*------------------*/
+/* typography */
+
+.ff-sans-serif {
+  font-family: var(--loki-font-family);
+}
+
+.ff-serif {
+  font-family: var(--loki-font-family-serif);
+}
+
+.ff-monospaced {
+  font-family: var(--loki-font-family-monospace);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.font-size-large {
+  font-size: var(--loki-font-size-h4);
+}
+
+.font-size-extra-large {
+  font-size: var(--loki-font-size-h1);
+}

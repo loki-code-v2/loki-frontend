@@ -1,0 +1,61 @@
+.function-code-card {
+  align-self: center;
+  flex: 1;
+  padding: var(--loki-spacing-md);
+  display: flex;
+  flex-direction: column;
+}
+
+.code-block.code {
+  white-space: pre;
+  line-height: var(--loki-spacing-xs);
+}
+.code-block {
+  font-family: "IBM Plex Mono", monospace;
+}
+.copy-button-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--loki-gray-700);
+  padding: 0;
+  border-top-left-radius: var(--loki-border-radius-large);
+  border-top-right-radius: var(--loki-border-radius-large);
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.copy-icon {
+  font-size: 3rem;
+  max-height: var(--loki-spacing-lg);
+}
+
+.ts-switch {
+  font-size: 0.75rem;
+  padding-top: 0.5rem;
+}
+
+.lang-select {
+  align-self: center;
+}
+
+.code-container {
+  background-color: var(--loki-gray-600);
+  padding: 10px;
+  overflow: auto; /* Makes it scrollable */
+  max-height: 7rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: var(--loki-border-radius-large);
+  border-bottom-left-radius: var(--loki-border-radius-large);
+  color: var(--loki-gray-300);
+}
+
+/* Style for code block */
+pre {
+  margin: 0;
+  white-space: pre-wrap; /* Ensures code wraps */
+}
+
+code {
+  font-family: "Source Code Pro", monospace; /* Use a monospaced font */
+}

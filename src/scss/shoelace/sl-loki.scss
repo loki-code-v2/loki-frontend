@@ -1,0 +1,76 @@
+@use "sl-theme-loki";
+
+.details-group-example sl-details:not(:last-of-type) {
+  margin-bottom: var(--sl-spacing-2x-small);
+}
+
+.loki-dialog::part(panel) {
+  background-color: var(--loki-gray-700);
+}
+
+.loki-dialog-button::part(base) {
+  width: 100%;
+}
+
+.loki-text-button::part(base) {
+  color: var(--loki-acent-text-primary);
+}
+
+.pointer::part(input) {
+  cursor: pointer;
+}
+
+.checkbox-help-text {
+  color: var(--loki-acent-icon);
+  font-size: var(--loki-font-size-caption);
+  font-weight: var(--loki-font-weight-light);
+}
+
+.loki-disabled-input::part(base) {
+  cursor: text;
+}
+
+.loki-dialog::part(panel) {
+  background-color: var(--loki-gray-700);
+  align-self: flex-start;
+}
+
+.loki-dialog::part(overlay) {
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.loki-dialog::part(base) {
+  padding-top: 10rem;
+}
+.testnet-tag::part(base) {
+  color: var(--loki-purple-500);
+  background-color: var(--loki-purple-700);
+}
+
+.testnet-tag {
+  margin-left: 10px;
+}
+
+.loki-network-selector::part(base) {
+  cursor: pointer;
+}
+
+.loki-network-selector::part(expand-icon) {
+  rotate: none;
+}
+
+.network-selector-option::part(label) {
+  display: flex;
+  justify-content: space-between;
+}
+.network-selector-option::part(checked-icon) {
+  opacity: 0;
+}
+.testnet-tag::part(svg) {
+  height: auto;
+  width: auto;
+  min-width: 64px;
+  animation: none;
+}

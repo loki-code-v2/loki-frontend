@@ -1,0 +1,57 @@
+.create-org-container {
+  width: 100%;
+
+  display: grid;
+  place-items: center;
+}
+
+.create-org-title {
+  margin-top: 0.5rem;
+}
+
+.create-org-description {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: var(--loki-gray-300);
+}
+
+.create-org-dialog-description {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: var(--loki-gray-300);
+}
+
+.create-org-dialog-btn {
+  width: 100%;
+}
+
+.invite-team-dialog {
+}
+
+.invite-team-dialog-description-1 {
+}
+
+.invite-team-dialog-input {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.invite-team-dialog-description-2 {
+  color: var(--loki-gray-300);
+  margin-bottom: 0.5rem;
+}
+
+.invite-team-dialog-send-btn {
+  width: 100%;
+}
+
+.invite-team-dialog-later-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  color: var(--loki-blue-400);
+}
+
+.invite-team-dialog-later-btn:hover {
+  cursor: pointer;
+}

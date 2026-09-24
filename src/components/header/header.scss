@@ -1,0 +1,12 @@
+nav {
+  justify-content: space-between;
+  padding: var(--loki-spacing-md);
+}
+.page-title {
+  color: var(--loki-gray-300);
+  align-self: center;
+  line-height: var(--loki-spacing-xxl);
+}
+.header{
+  position:fixed;
+}

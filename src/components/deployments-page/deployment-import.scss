@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  background-color: var(--loki-gray-500);
+  padding: 1rem;
+  border-radius: var(--loki-border-radius-large);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--loki-gray-500);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+  border-radius: var(--loki-border-radius-large);
+  row-gap: 1rem;
+  width: 50vw;
+}
+
+.import-btn {
+  display: flex;
+  justify-content: center;
+}

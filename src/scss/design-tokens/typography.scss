@@ -1,0 +1,81 @@
+:root {
+  /*Typography*/
+
+  /*Font Family*/
+  /*Sans Serif */
+  --loki-font-family: "Figtree", sans-serif;
+  /*Monospaced*/
+  --loki-font-family-monospace: "Fira Code", monospace;
+  /*Serif*/
+  --loki-font-family-serif: "Merriweather", serif;
+
+  /*Font Weights*/
+  --loki-font-weight-light: 300;
+  --loki-font-weight-regular: 400;
+  --loki-font-weight-medium: 500;
+  --loki-font-weight-semi-bold: 600;
+  --loki-font-weight-bold: 700;
+  /*Font Sizes*/
+  font-size: 16px;
+  --loki-font-size-small: 0.625rem;
+  --loki-font-size-caption: 0.75rem;
+  --loki-font-size-body: 1rem;
+  --loki-font-size-subtitle: 1.125rem;
+  --loki-font-size-h4: 1.5rem;
+  --loki-font-size-h3: 2rem;
+  --loki-font-size-h2: 2.375rem;
+  --loki-font-size-h1: 2.625rem;
+
+}
+
+/* Text stylings, headers, <p/> & <div>*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: var(--loki-font-weight-medium);
+}
+
+h1 {
+  font-size: var(--loki-font-size-h1);
+  line-height: var(--loki-spacing-xxxxl);
+}
+
+h2 {
+  font-size: var(--loki-font-size-h2);
+  line-height: var(--loki-spacing-xxl);
+}
+
+h3 {
+  font-size: var(--loki-font-size-h3);
+  line-height: var(--loki-spacing-xxl);
+}
+
+h4 {
+  font-size: var(--loki-font-size-h4);
+  line-height: var(--loki-spacing-xl);
+}
+
+p,
+div {
+  font-size: var(--loki-font-size-body);
+  line-height: var(--loki-spacing-lg);
+
+  &.subtitle {
+    font-size: var(--loki-font-size-subtitle);
+    line-height: var(--loki-spacing-xl);
+  }
+
+  &.caption {
+    font-size: var(--loki-font-size-caption);
+    line-height: var(--loki-spacing-md);
+  }
+
+  &.small {
+    font-size: var(--loki-font-size-small);
+    line-height: var(--loki-spacing-md);
+  }
+}
