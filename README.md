@@ -1,7 +1,9 @@
 # Loki Code — Frontend
 
 Qwik City (SSR) frontend for [Loki Code](https://lokicode.io) — a smart contract
-development platform. Pairs with the [Loki Code backend](../backend).
+development platform.
+
+> **Backend repo:** [loki-code-v2/loki-backend](https://github.com/loki-code-v2/loki-backend) — NestJS API this app consumes.
 
 ## Stack
 
